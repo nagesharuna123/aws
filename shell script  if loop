@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo -e "enter your name :\c"
+
+read person 
+
+if [ $person == nagesh ] 
+then
+	echo "succuss"
+	else 
+	echo " wrong username"
+fi
+
+echo -e "enter your password :\c"
+read password
+if  [ $password == nagesh123@ ] 
+then
+	echo "succuss"
+else 
+	echo "password is wrong"
+fi
